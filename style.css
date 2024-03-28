@@ -107,3 +107,40 @@ nav ul a {
 .navbar-nav a {
     font-style: italic;
 }
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom, #008000, #ffd700, #000000, #ff0000); /* Gradient background using green, gold, black, and red */
+  color: #ffffff; /* Text color */
+}
+
+.navbar {
+  padding: 1rem; /* Add padding to navbar items */
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff; /* Navbar link color */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f8f9fa; /* Navbar link color on hover */
+}
+
+section {
+  padding: 3rem 0; /* Add padding to sections */
+}
+
+footer {
+  background-color: #343a40; /* Dark background color for footer */
+  color: #ffffff; /* Text color for footer */
+  padding: 1rem;
+}
+
+.contact-link {
+  color: #007bff; /* Contact link color */
+  font-weight: bold;
+  transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+.contact-link:hover {
+  color: #0056b3; /* Contact link color on hover */
+}
